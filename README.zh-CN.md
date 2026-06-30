@@ -2,11 +2,32 @@
 
 [English](./README.md) | 简体中文
 
-Genesis Sandbox 是一个基于 Go 的通用沙箱运行时服务，面向 AI Agent、MCP 工具、Skills、工作流平台、文件处理、数据分析，以及代码辅助型企业自动化任务。
+Genesis Sandbox 是一个基于 Go 的通用沙箱运行时服务，面向 AI Agent、MCP 工具、Skills、工作流平台、低代码 Code 节点、文件处理、数据分析、浏览器自动化、云桌面可视化操作和企业级自动化任务。
 
-它提供安全、隔离、可治理的执行环境，用于运行命令、脚本、工具和任务专用代码。Genesis Sandbox 可以作为 Genesis Agent 的安全执行层，但它本身是一个独立、通用、可复用的沙箱运行时，也可以被其他 Agent 平台、低代码平台、工作流系统和企业自动化系统集成使用。
+它提供安全、隔离、可治理的执行环境，用于运行命令、脚本、工具、MCP 工具、Skills、任务专用代码、浏览器会话，以及未来的可视化桌面操作。Genesis Sandbox 可以作为 Genesis Agent 的安全执行层，但它本身被设计为一个独立、通用、可复用的 Agent Sandbox Runtime，可被不同的 Agent 平台和自动化系统集成使用。
 
-Genesis Sandbox 不是通用在线 IDE，也不是完整的 AI 编程产品。它的目标是安全地执行 Agent 和企业工作流完成真实任务所需的代码、命令、工具和脚本。
+Genesis Sandbox 不是通用在线 IDE，也不是完整的 AI 编程产品。它的目标是安全地执行 Agent 和企业工作流完成真实任务所需的代码、命令、工具、浏览器动作、桌面操作和脚本。
+
+## 定位
+
+```text
+Genesis Sandbox = 通用 Agent 沙箱运行时
+Genesis Agent   = 可以使用 Genesis Sandbox 的一个上层平台
+```
+
+Genesis Sandbox 重点解决以下问题：
+
+```text
+如何安全执行不可信代码
+如何隔离运行 AI 生成的脚本
+如何在策略控制下运行 MCP 工具
+如何按风险等级隔离执行 Skills 脚本
+如何在不污染主平台的情况下处理文件
+如何支持浏览器自动化和云桌面可视化操作
+如何为长期运行的 Agent 提供可治理的执行环境
+如何在企业多租户环境下控制资源、网络、日志和审计
+```
+
 
 ## 核心亮点
 
