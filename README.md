@@ -1,3 +1,9 @@
-# genesis-sandbox
-go开发的沙箱环境、适用Agent工具、代码执行、skills脚本执行、浏览器自动化、云桌面可视化操作等，支持go、python、java客户端 、以及api调用。
-# 当前还在持续迭代，功能还不完善
+# Genesis Sandbox
+
+English | [简体中文](./README.zh-CN.md)
+
+Genesis Sandbox is a general-purpose Go-based sandbox runtime service for AI agents, MCP tools, skills, workflow platforms, file processing, data analysis, and code-assisted enterprise automation.
+
+It provides secure, isolated, and policy-controlled execution environments for running commands, scripts, tools, and task-specific code. It can be used as the execution layer of Genesis Agent, but it is designed as a standalone and reusable sandbox runtime for different agent platforms and automation systems.
+
+Genesis Sandbox is not a general-purpose online IDE or a full AI coding product. Its goal is to safely execute the code, commands, tools, and scripts required by agents and enterprise workflows to complete real-world tasks.
